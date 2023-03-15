@@ -38,10 +38,12 @@ body{
   flex-direction: column;
 }
 .inp #box_id{
+  font-size: 2rem;
   margin: 2%;
   height: 100px;
 }
 .inp #box_pw{
+  font-size: 2rem;
   margin: 2%;
   height: 100px;
 }
@@ -79,11 +81,10 @@ input::placeholder{
   border: 5px solid #B5C2CC;
 }
 .container #find_btn{
-  position: absolute;
+  position: relative;
   text-align: center;
   font-size: 2rem;
   height: 100px;
-  bottom: 200px;
   justify-content: center;
 }
 .container #find_btn:hover{
