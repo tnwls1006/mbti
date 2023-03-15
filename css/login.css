@@ -84,14 +84,30 @@ body{
 .container #nbox{
   height: 5%;
 }
+.container #other_btn{
+  align-items: center;
+  justify-content: center; 
+  height: 15%;
+}
 .container #find_btn{
   display: flex;
   align-items: center;
   justify-content: center; 
-  height: 15%;
   font-size: 2rem;
+  margin: 1%;
 }
 .container #find_btn:hover{
+  cursor: pointer;
+  color: lightcoral;
+}
+.container #join_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 2rem;
+  margin: 1%;
+}
+.container #join_btn:hover{
   cursor: pointer;
   color: lightcoral;
 }
