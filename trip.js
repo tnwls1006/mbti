@@ -1,3 +1,8 @@
+  // 상단 글씨(로고) 클릭시 함수
+  function indexAction(){
+    location.href = "../html/index.html"
+  }
+  
   // 로그인 클릭시 함수
   function loginAction(){
     location.href = "../html/login.html"
