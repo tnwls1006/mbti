@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'KyoboHandwriting2020A';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background: #B5C2CC;
+  font-family: 'KyoboHandwriting2020A';
+}
+#top_title{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.container{
+  margin: 0 auto;
+  margin-top: 3%;
+  background: #fff;
+  width: 80%;
+  height: 80%;
+  border: 5px solid gray;
+  border-radius: 15px;
+  align-self: center;
+  padding: 5%;
+}
+.container #main_box{
+  display: flex;
+  flex-direction: column;
+}
+.inp #box_id{
+  margin: 2%;
+  height: 100px;
+}
+.inp #box_pw{
+  margin: 2%;
+  height: 100px;
+}
+input{
+  width: 50%;
+  height: 50%;
+  border: 3px solid gray;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1%;
+}
+input::placeholder{
+  text-align: center;
+}
+.inp #box_btn{
+  margin: 2%;
+  height: 100px;
+}
+.inp #lbtn{
+  margin: 2%;
+  width: 100%;
+  height: 70px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  border: 2px solid gray;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.inp #lbtn:hover{
+  font-weight: bold;
+  cursor: pointer;
+  border: 5px solid #B5C2CC;
+}
+.container #find_btn{
+  position: absolute;
+  text-align: center;
+  font-size: 2rem;
+  height: 100px;
+  bottom: 200px;
+  justify-content: center;
+}
+.container #find_btn:hover{
+  cursor: pointer;
+  color: #B5C2CC;
+}
