@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'KyoboHandwriting2020A';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background: #B5C2CC;
+  font-family: 'KyoboHandwriting2020A';
+}
+#top_title{
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 3%;
+}
+#top_title:hover{
+  cursor: pointer;
+}
+.container{
+  border: 3px solid gray;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1%;
+  width: 75%;
+  margin-top: 8%;
+  height: 50%;
+  text-align: center;
+}
+.container .ment{
+  height: 60%;
+  text-align: center;
+  padding: 2%;
+}
+.ment b{
+  font-size: 3.5rem;
+}
+.ment div{
+  font-size: 2rem;
+  margin: 2%;
+}
+.login_btn{
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px 20px;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.login_btn:hover{
+  cursor: pointer;
+}
