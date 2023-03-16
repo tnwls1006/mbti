@@ -15,19 +15,66 @@
   </div>
 
   <div class="container">
-    <div id="box_name">이름 &nbsp; <input id="inp_txt" type="text" placeholder="&nbsp;Name">
-      <div id="name">이름</div></div>
-    <div id="box_id">아이디 &nbsp; <input id="inp_txt" type="text" placeholder="&nbsp;ID">
-      <div id="id_re_btn">아이디 중복 확인</div></div>
-    <div id="box_pw">비밀번호 &nbsp; <input id="inp_txt" type="password" placeholder="&nbsp;PassWord">
-      <div id="pw_re_btn">비밀번호 확인</div></div>
-    <div id="box_pw_re">비밀번호 재입력 <input id="inp_txt" type="password" placeholder="&nbsp;PassWord">
-      <div id="pw_re_btn">비밀번호 확인</div></div>
-      <div>연락처</div>
-      <div>남/여</div>
-      <div>이메일</div>
-</div>
-
+  <!-- 아이디 -->
+  <div class="field">
+    <b>아이디</b>
+    <input id="userId" type="text">
+  </div>
+  <!-- 비밀번호 -->
+  <div class="field">
+    <b>비밀번호</b>
+    <input id="userPw" type="password">
+  </div>
+  <!-- 비밀번호 확인 -->
+  <div class="field">
+    <b>비밀번호 재입력</b>
+    <input id="userPw-Re" type="password">
+  </div>
+  <!-- 이름 -->
+  <div class="field">
+    <b>이름</b>
+    <input id="userName" type="text">
+  </div>
+  <!-- 생일 -->
+  <div class="field_BD">
+    <b>생년월일</b>
+    <div>
+      <input type="number" min="1900" placeholder="년(2000)">
+      <select>
+        <option value="">월</option>
+        <option value="Jan">1월</option>
+        <option value="Feb">2월</option>
+        <option value="Mar">3월</option>
+        <option value="Apr">4월</option>
+        <option value="May">5월</option>
+        <option value="Jun">6월</option>
+        <option value="Jul">7월</option>
+        <option value="Aug">8월</option>
+        <option value="Sep">9월</option>
+        <option value="Oct">10월</option>
+        <option value="Nov">11월</option>
+        <option value="Dec">12월</option>
+      </select>
+      <input type="number" min="0" max="31" placeholder="일">
+    </div>
+  </div>
+    <!-- 성별 -->
+    <div class="field_GD">
+      <b>성별</b>
+      <div>
+        <input type="radio" name="gender">남자
+        <input type="radio" name="gender">여자
+      </div>
+    </div>
+     <!-- 휴대전화 -->
+     <div class="field_PH">
+      <b>휴대전화</b>
+      <input type="tel" placeholder="전화번호">
+    </div>
+    <!-- 가입 btn -->
+    <input type="submit" value="가입하기">
+  </div> 
+  
   <script src="../trip.js"></script>
 </body>
 </html>
