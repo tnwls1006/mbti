@@ -14,6 +14,7 @@ body{
   height: 100vh;
   background: #B5C2CC;
   font-family: 'KyoboHandwriting2020A';
+  
 }
 #top_title{
   color: white;
@@ -28,23 +29,25 @@ body{
   border: 3px solid gray;
   background-color: #fff;
   margin: 0 auto;
-  padding: 1%;
   width: 75%;
   margin-top: 8%;
   height: 50%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container .ment{
   height: 60%;
   text-align: center;
-  padding: 2%;
 }
 .ment b{
   font-size: 3.5rem;
 }
 .ment div{
   font-size: 2rem;
-  margin: 2%;
+  margin-top: 3%;
 }
 .login_btn{
   border: 2px solid black;
