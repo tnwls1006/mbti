@@ -35,6 +35,7 @@ body{
 .container b{
   display: block; /*수직 정렬*/
   margin-bottom: 10px;
+  font-size: 1.5rem;
 }
 .container input:not(input[type=radio]), .container select{
   border: 2px solid black;
@@ -50,14 +51,34 @@ color:lightcoral
 .container select:focus{
   border: 5px solid lightcoral;
 }
+.field_BD{
+  margin: 3% 0;
+}
 .field_BD div{
   display: flex;
+  gap: 10px;  /* 간격 벌릴때*/
+}
+.field_GD{
+  margin: 3% 0;
+}
+.field_GD div{
+  width: 50%;
+  border: 2px solid black;
+  padding: 15px 5px;
+  background-color: #fff;
+}
+.field_GD input{
+  width: 40px;
+}
+.field_PH{
+  margin: 3% 0;
 }
 .field_PH div{
   display: flex;
 }
-.field_GD div{
-  border: 2px solid black;
-  padding: 15px 15px;
-  background-color: #fff;
+.container .join{
+ text-align: center;
 }
+.container .join input:hover{
+  cursor: pointer;
+ }
