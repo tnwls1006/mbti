@@ -22,3 +22,8 @@
   function mainAction(){
     location.href = "../html/main.html"
   }
+
+  //회원가입 창에서 가입버튼 클릭시
+  function submitAction(){
+    location.href = "../html/join2.html"
+  }
