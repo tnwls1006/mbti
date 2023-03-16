@@ -17,7 +17,7 @@ body{
 }
 #top_title{
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   margin-top: 3%;
 }
@@ -25,117 +25,39 @@ body{
   cursor: pointer;
 }
 .container{
-  border: 5px solid gray;
-  border-radius: 15px;
-  background: #fff;
   width: 80%;
   margin: 0 auto;
-  margin-top: 3%;
-  height: 80%;
+  margin-top: 2%;
 }
-/* input */
-.container #inp_txt{
-  border: 3px solid gray;
-  width: 40%;
-  height: 15%;
-  border-radius: 15px;
-  height: 40%;
-  padding: 1%;
-  margin: 3%;
+.container .field{
+  margin: 3% 0;
 }
-.container input::placeholder{
-  text-align: center;
-  font-size: 1.5rem;
-  color: lightcoral;
+.container b{
+  display: block; /*수직 정렬*/
+  margin-bottom: 10px;
 }
-/* 이름 입력*/
-.container #box_name{
-  margin: 1%;
-  height: 15%;
-  font-size: 2rem;
+.container input:not(input[type=radio]), .container select{
+  border: 2px solid black;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 5px;
+}
+.container input[type=button],
+.container input[type=submit]{
+background-color: white;
+color:lightcoral
+}
+.container select:focus{
+  border: 5px solid lightcoral;
+}
+.field_BD div{
   display: flex;
-  align-items: center;
-  justify-content: center; 
 }
-.container #box_name #name{
-  border: 3px solid gray;
-  border-radius: 15px;
-  padding: 1%;
-  font-size: 1.5rem;
-  height: 50%;
-  margin: 3%;
+.field_PH div{
   display: flex;
-  align-items: center;
-  justify-content: center; 
-  visibility: hidden;
 }
-/* 아이디 입력 */
-.container #box_id{
-  margin: 1%;
-  height: 15%;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+.field_GD div{
+  border: 2px solid black;
+  padding: 15px 15px;
+  background-color: #fff;
 }
-.container #box_id #id_re_btn{
-  border: 3px solid gray;
-  border-radius: 15px;
-  padding: 1%;
-  font-size: 1.5rem;
-  height: 50%;
-  margin: 3%;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-}
-.container #box_id #id_re_btn:hover{
-  cursor: pointer;
-}
-/* 비밀번호 입력 */
-.container #box_pw{
-  margin: 1%;
-  height: 15%;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-}
-.container #box_pw #pw_re_btn{
-  border: 3px solid gray;
-  border-radius: 15px;
-  padding: 1%;
-  font-size: 1.5rem;
-  height: 50%;
-  margin: 3%;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  visibility: hidden;
-}
-/* 비밀번호 재입력 */
-.container #box_pw_re{
-  margin: 1%;
-  height: 15%;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-}
-.container #box_pw_re #pw_re_btn{
-  border: 3px solid gray;
-  border-radius: 15px;
-  padding: 1%;
-  font-size: 1.5rem;
-  height: 50%;
-  margin: 3%;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-}
-.container #box_pw_re #pw_re_btn:hover{
-  cursor: pointer;
-}
-/* 연락처 */
-/* 이메일 */
-/* 성별 */
