@@ -51,6 +51,19 @@ color:lightcoral
 .container select:focus{
   border: 5px solid lightcoral;
 }
+.field_MBTI{
+  margin: 3% 0;
+}
+.field_MBTI div{
+  padding: 15px 5px;
+}
+.field_MBTI button{
+  width: 150px;
+  margin: 1%;
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+}
 .field_BD{
   margin: 3% 0;
 }
