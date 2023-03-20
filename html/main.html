@@ -10,19 +10,50 @@
   <title>메인 페이지</title>
 </head>
 <body>
-  <div class="top">
-    <div id="top_title" onclick="mainAction()">
-      TO.P 여행이 어려운 당신에게 From. J
-    </div>
-    <div id="top_nav">
-      <img src="../image/menu.png" alt="usernav">
-      <img src="../image/user.png" alt="userpg">
-    </div>
-  </div>
-
-  <div class="main">
-    
-  </div>
+  <header>
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../html/main.html">여행이 어려운 당신에게</a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">User NickName</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../html/main.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  메뉴
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="../html/userPage.html">UserPage</a></li>
+                  <li><a class="dropdown-item" href="#">LogOut</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/tripMap.html">tripMap</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <script src="../trip.js"></script>
 </body>
