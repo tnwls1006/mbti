@@ -27,3 +27,6 @@
   function submitAction(){
     location.href = "../html/join2.html"
   }
+  function logOutAction(){
+    
+  }

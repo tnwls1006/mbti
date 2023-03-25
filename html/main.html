@@ -14,10 +14,6 @@
     <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="../html/main.html">여행이 어려운 당신에게</a>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,7 +33,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                   <li><a class="dropdown-item" href="../html/userPage.html">UserPage</a></li>
-                  <li><a class="dropdown-item" href="#">LogOut</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="logOutAction()">LogOut</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -45,15 +41,29 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex">
+            <!-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
     </nav>
   </header>
+
+  <nav class="nav-bar">
+    <ul class="nav-tabs">
+      <li class="nav-item">
+        <a class="nav-item-list" href="#">전체</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item-list" href="#">어디가</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-item-list" href="#">누구랑</a>
+      </li>
+    </ul>
+  </nav>
 
   <script src="../trip.js"></script>
 </body>

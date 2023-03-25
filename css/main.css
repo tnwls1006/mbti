@@ -15,3 +15,30 @@ body{
   background: #B5C2CC;
   font-family: 'KyoboHandwriting2020A';
 }
+header{
+  height: 100px;
+}
+header h5{
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+header li{
+margin-top: 5%;
+font-size: 1.3rem;
+}
+header nav{
+  height: 80px;
+}
+.nav-bar{
+  height: 80px;
+  background-color: lightcoral;
+}
+.nav-bar ul{
+  display: flex;
+}
+.nav-bar ul li{
+  width: 30%;
+}
+nav #offcanvasNavbarLabel:hover{
+  cursor: pointer;
+}
